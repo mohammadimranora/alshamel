@@ -5,7 +5,8 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon server.mjs",
+    "start": "node server.mjs",
+    "dev": "nodemon server.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mohammad Imran <mohammadimranora@gmail.com>",
